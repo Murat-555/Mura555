@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    background-color: green;
+    margin: 0 auto;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: block 5s ease-in 1s infinite alternate;
+}
+
+/* @keyframes block {
+    from {
+        margin-top: 0;
+    }
+
+    to {
+        margin-top: 300px;
+        margin-left: 800px;
+    }
+} */
+
+@keyframes block {
+    0% {
+        margin-top: 0;
+    }
+    30% {
+        margin-top: 130px;
+        margin-left: 400px;
+    }
+    50% {
+        margin-top: 150px;
+        margin-left: 400px;
+    }
+    100% {
+        margin-top: 300px;
+        margin-left: 800px;
+    }
+}
